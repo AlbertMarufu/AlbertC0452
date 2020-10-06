@@ -11,7 +11,7 @@ public class Student
 {
     // the student's full name
     private String name;
-    // the student ID
+    // the student ID 
     private String id;
     // the amount of credits for study taken so far
     private int credits;
