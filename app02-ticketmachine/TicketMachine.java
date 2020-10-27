@@ -9,17 +9,21 @@
  * @author David J. Barnes and Michael Kölling
  * @version 2016.02.29
  * 
- * Modified by Student Name
+ * Modified by Albert
  */
 public class TicketMachine
 {
+    private Ticket aylesbury = new Ticket("Aylesbury", 220);
+    private Ticket amersham = new Ticket("Amersham", 300);
+    private Ticket highwycombe = new Ticket("High Wycombe",330);
+    
     // The price of a ticket from this machine.
     private int price;
     // The amount of money entered by a customer so far.
     private int balance;
     // The total amount of money collected by this machine.
     private int total;
-
+    
     /**
      * Create a machine that issues tickets of the given price.
      */
@@ -53,10 +57,26 @@ public class TicketMachine
      */
     public void insertMoney(int amount)
     {
-        if(amount > 0) 
+        System.out.println("amount entered " + amount );
+        System.out.println( "current balance " + balance);
+        if(amount == 10)
         {
             balance = balance + amount;
         }
+        
+        if(amount == 20)
+        { 
+            balance = balance + amount;
+        }   
+             
+        if(amount == 100) 
+    {  
+        balance = balance + amount;
+    }
+    
+        if(amount == 200)
+    { balance = balance + amount;
+    }          
         else 
         {
             System.out.println("Use a positive amount rather than: " +
