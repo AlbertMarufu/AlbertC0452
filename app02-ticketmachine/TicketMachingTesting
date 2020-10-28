@@ -1,0 +1,57 @@
+TicketMachine Ticket1 = new TicketMachine();
+Ticket1.selectAmersham();
+Ticket1.insertMoney(10);
+amount entered 10
+current balance 10
+Ticket1.printTicket();
+You must insert at least: 290 more cents.
+Ticket1.insertMoney(200);
+amount entered 200
+current balance 210
+Ticket1.insertMoney(20);
+amount entered 20
+current balance 230
+Ticket1.insertMoney(30);
+Use a positive amount rather than: 30
+amount entered 30
+current balance 230
+Ticket1.insertMoney(20);
+amount entered 20
+current balance 250
+Ticket1.insertMoney(100);
+amount entered 100
+current balance 350
+Ticket1.printTicket();
+Destination: Amersham
+Price: 300
+Date: Wed Oct 28 09:15:54 GMT 2020
+Ticket1.refundBalance()
+    returned int 50
+TicketMachine Ticket2 = new TicketMachine();
+Ticket2.selectAylesbury();
+Ticket2.insertMoney(200);
+amount entered 200
+current balance 200
+Ticket2.insertMoney(20);
+amount entered 20
+current balance 220
+Ticket2.getPrice()
+    returned int 0
+Ticket2.printTicket();
+Destination: Aylesbury
+Price: 220
+Date: Wed Oct 28 09:15:54 GMT 2020
+TicketMachine Ticket3 = new TicketMachine();
+Ticket3.selectHighWycombe();
+Ticket3.insertMoney(200);
+amount entered 200
+current balance 200
+Ticket3.insertMoney(200);
+amount entered 200
+current balance 400
+Ticket3.printTicket();
+Destination: High Wycombe
+Price: 330
+Date: Wed Oct 28 09:15:54 GMT 2020
+Ticket3.refundBalance()
+    returned int 70
