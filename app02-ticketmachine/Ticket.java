@@ -1,22 +1,40 @@
+import java.util.*;
 
 /**
  * Write a description of class Ticket here.
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @Albert Marufu (your name)
+ * @26/10/20 (a version number or a date)
  */
 public class Ticket
 {
     // instance variables - replace the example below with your own
-    private int x;
+    private String destination;
+    private int price;
+    private Date today;
 
     /**
      * Constructor for objects of class Ticket
      */
-    public Ticket()
+    public Ticket(String destination, int price)
+    
     {
         // initialise instance variables
-        x = 0;
+        this.destination=destination;
+        this.price=price;
+        today = new Date();
+    }
+    
+    public int getPrice()
+    {
+        return price;
+        
+    }
+    
+    public String getDestination()
+   {
+       return destination;
+    
     }
 
     /**
@@ -25,9 +43,12 @@ public class Ticket
      * @param  y  a sample parameter for a method
      * @return    the sum of x and y
      */
-    public int sampleMethod(int y)
+    public void printTicket()
     {
         // put your code here
-        return x + y;
+        System.out.println("Destination: " + destination);
+        System.out.println("Price: " + price);
+        System.out.println( "Date: " + today);
+    
     }
 }
