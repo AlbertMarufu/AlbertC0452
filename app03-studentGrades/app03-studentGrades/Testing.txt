@@ -1,0 +1,20 @@
+Module module1 = new Module("Cyber Security", "CO2245");
+Course course1 = new Course("Cyber Security", "C02445");
+course1.addModule(module1);
+course1.print();
+Course Cyber Security - C02445
+Modules
+Module@75814fa2
+Module module1 = new Module("Networking", "CO2256");
+Module module2 = new Module("Web Development", "CO2288");
+Module module3 = new Module("Cyber threats and Management", "C022000");
+Course course1 = new Course("Cyber threats and Management", "CO6757");
+course1.addModule(module1);
+course1.addModule(module2);
+course1.addModule(module3);
+course1.print();
+Course Cyber threats and Management - CO6757
+Modules
+Module Name: Networking , Module Code: CO2256, Mark:0%
+Module Name: Web Development , Module Code: CO2288, Mark:0%
+Module Name: Cyber threats and Management , Module Code: C022000, Mark:0%
