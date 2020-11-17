@@ -3,8 +3,8 @@
  * The demonstration becomes properly functional as
  * the StockManager class is completed.
  * 
- * @author David J. Barnes and Michael Kölling.
- * @version 2016.02.29
+ * @author Albert 
+ * @version 14.11.2020
  */
 public class StockDemo
 {
@@ -19,9 +19,19 @@ public class StockDemo
     {
         this.manager = manager;
         
-        manager.addProduct(new Product(101, "Samsung Galaxy S20"));
-        manager.addProduct(new Product(102, "Apple iPhone 12"));
-        manager.addProduct(new Product(103, "Google Pixel 4A"));
+        manager.addProduct(new Product(70, "Stamps"));
+        manager.addProduct(new Product(80, "Samsung Television"));
+        manager.addProduct(new Product(10, "Busses"));
+        manager.addProduct(new Product(104, "Typewriter"));
+        manager.addProduct(new Product(50, "Ballpoint"));
+        manager.addProduct(new Product(30, "Lightbulbs"));
+        manager.addProduct(new Product(29, "Balloons"));
+        manager.addProduct(new Product(100, "HP Printer"));
+        manager.addProduct(new Product(90, "Monitor"));
+        manager.addProduct(new Product(20, "Toy gun"));
+        
+        demoDeliverProduct();
+        
     }
     
     /**
@@ -30,15 +40,25 @@ public class StockDemo
      * product is restocked, and then the details are shown again.
      */
     public void demoDeliverProduct()
+    
     {
         // Show details of all of the products before delivery.
-        manager.printProduct(101);
-        
+        manager.printAllProducts();
+                
         // Take delivery of 5 items of one of the products.
-        manager.delivery(101, 5);
-        
+        manager.delivery(70, 10);
+        manager.delivery(80, 30);
+        manager.delivery(10, 20);
+        manager.delivery(104, 15);
+        manager.delivery(50, 30);
+        manager.delivery(30, 60);
+        manager.delivery(29, 40);
+        manager.delivery(100, 50);
+        manager.delivery(90, 70);
+        manager.delivery(20, 35);
+       
         // Show the list of all products after delivery
-        manager.printProduct(101);
+       manager.printAllProducts();
     }
     
     /**
