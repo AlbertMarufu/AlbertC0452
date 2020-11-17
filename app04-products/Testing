@@ -1,0 +1,121 @@
+StockManager stockMan1 = new StockManager();
+StockDemo stockDem1 = new StockDemo(stockMan1);
+
+Peacock's Stock List
+====================
+
+70: Stamps stock level: 0
+80: Samsung Television stock level: 0
+10: Busses stock level: 0
+104: Typewriter stock level: 0
+50: Ballpoint stock level: 0
+30: Lightbulbs stock level: 0
+29: Balloons stock level: 0
+100: HP Printer stock level: 0
+90: Monitor stock level: 0
+20: Toy gun stock level: 0
+
+
+Peacock's Stock List
+====================
+
+70: Stamps stock level: 10
+80: Samsung Television stock level: 30
+10: Busses stock level: 20
+104: Typewriter stock level: 15
+50: Ballpoint stock level: 30
+30: Lightbulbs stock level: 60
+29: Balloons stock level: 40
+100: HP Printer stock level: 50
+90: Monitor stock level: 70
+20: Toy gun stock level: 35
+
+stockMan1.deleteProduct(10);
+stockMan1.printAllProducts();
+
+Peacock's Stock List
+====================
+
+70: Stamps stock level: 10
+80: Samsung Television stock level: 30
+104: Typewriter stock level: 15
+50: Ballpoint stock level: 30
+30: Lightbulbs stock level: 60
+29: Balloons stock level: 40
+100: HP Printer stock level: 50
+90: Monitor stock level: 70
+20: Toy gun stock level: 35
+
+stockMan1.findProduct(20)
+    returned Object <object reference>
+stockMan1.numberInStock(100);
+StockManager stockMan1 = new StockManager();
+StockDemo stockDem1 = new StockDemo(stockMan1);
+
+Peacock's Stock List
+====================
+
+70: Stamps stock level: 0
+80: Samsung Television stock level: 0
+10: Busses stock level: 0
+104: Typewriter stock level: 0
+50: Ballpoint stock level: 0
+30: Lightbulbs stock level: 0
+29: Balloons stock level: 0
+100: HP Printer stock level: 0
+90: Monitor stock level: 0
+20: Toy gun stock level: 0
+
+
+Peacock's Stock List
+====================
+
+70: Stamps stock level: 10
+80: Samsung Television stock level: 30
+10: Busses stock level: 20
+104: Typewriter stock level: 15
+50: Ballpoint stock level: 30
+30: Lightbulbs stock level: 60
+29: Balloons stock level: 40
+100: HP Printer stock level: 50
+90: Monitor stock level: 70
+20: Toy gun stock level: 35
+
+stockMan1.numberInStock(88);
+Product not found!
+stockMan1.numberInStock(10);
+stockMan1.printStocklevelsLow();
+StockManager stockMan1 = new StockManager();
+StockDemo stockDem1 = new StockDemo(stockMan1);
+
+Peacock's Stock List
+====================
+
+70: Stamps stock level: 0
+80: Samsung Television stock level: 0
+10: Busses stock level: 0
+104: Typewriter stock level: 0
+50: Ballpoint stock level: 0
+30: Lightbulbs stock level: 0
+29: Balloons stock level: 0
+100: HP Printer stock level: 0
+90: Monitor stock level: 0
+20: Toy gun stock level: 0
+
+
+Peacock's Stock List
+====================
+
+70: Stamps stock level: 10
+80: Samsung Television stock level: 30
+10: Busses stock level: 20
+104: Typewriter stock level: 15
+50: Ballpoint stock level: 30
+30: Lightbulbs stock level: 60
+29: Balloons stock level: 40
+100: HP Printer stock level: 50
+90: Monitor stock level: 70
+20: Toy gun stock level: 35
+
+stockMan1.numberInStock(20);
+35
