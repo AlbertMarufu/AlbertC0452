@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=StockApp
+comment0.text=\r\n\ This\ app\ provides\ a\ user\ interface\ to\ the\ stock\ manager\ so\ that\ users\ can\ add,\ edit,\ print\ and\ remove\ stock\ products\r\n\ @author\ Albert\ Marufu\r\n\ @version\ 0.1\r\n
+comment1.params=
+comment1.target=void\ run()
+comment1.text=\r\n\ \r\n
+comment2.params=
+comment2.target=void\ getMenuChoice()
+comment2.text=\r\n\ \r\n
+comment3.params=choice
+comment3.target=void\ executeMenu(java.lang.String)
+comment4.params=
+comment4.target=void\ printMenuChoices()
+comment4.text=\r\n\ Print\ out\ a\ menu\ of\ operation\ choices\r\n
+comment5.params=
+comment5.target=void\ printHeading()
+comment5.text=\r\n\ Print\ the\ title\ of\ the\ program\ and\ the\ authors\ name\r\n
+numComments=6
